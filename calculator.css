@@ -1,0 +1,33 @@
+#calculator {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 999;
+}
+
+.calculator-display {
+    width: 75%;
+    height: 25%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+    
+.calculator-button {
+    font: inherit;
+    width: 25%;
+    height: 25%;
+    background-color: #999;  
+    border: 1px solid white;
+    outline: 0;
+    cursor: pointer;
+
+}
